@@ -1,0 +1,15 @@
+== Responders
+
+A gem for Rails 3.0 adding the `responders` method to ActionController::Base, allowing you to setup per controller which responders you want included.
+
+=== Example
+
+  class InvitationsController < ApplicationController
+    responders :pagination, :ordering
+  end
+
+=== Installation
+
+You can just require it in your Gemfile:
+
+  gem 'responders'

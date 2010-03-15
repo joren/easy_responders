@@ -1,6 +1,8 @@
 module Responders
   class Railtie < Rails::Railtie
-    initializer "action_controller.extend_responders" do |app|
+    railtie_name 'responders'
+    
+    initializer 'responders.extend_actioncontroller' do |app|
       ActionController::Base.extend Responders
     end
   end
