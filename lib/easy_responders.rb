@@ -1,6 +1,6 @@
-require 'responders/railtie'
+require 'easy_responders/railtie'
 
-module Responders
+module EasyResponders
   def responders *responders
     if responders.any?
       responder_class = Class.new(responder)

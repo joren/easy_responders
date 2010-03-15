@@ -1,4 +1,4 @@
-== Responders
+== Easy Responders
 
 A gem for Rails 3.0 adding the `responders` method to ActionController::Base, allowing you to setup per controller which responders you want included.
 
@@ -12,4 +12,4 @@ A gem for Rails 3.0 adding the `responders` method to ActionController::Base, al
 
 You can just require it in your Gemfile:
 
-  gem 'responders'
+  gem 'easy_responders'
