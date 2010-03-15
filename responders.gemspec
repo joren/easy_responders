@@ -12,6 +12,18 @@ Gem::Specification.new do |s|
   s.date = %q{2010-03-15}
   s.description = %q{Easily setup responders in your controller}
   s.email = %q{jan@openminds.be}
+  s.extra_rdoc_files = [
+    "README.rdoc"
+  ]
+  s.files = [
+    "MIT-LICENSE",
+     "README.rdoc",
+     "Rakefile",
+     "VERSION",
+     "lib/responders.rb",
+     "lib/responders/railtie.rb",
+     "responders.gemspec"
+  ]
   s.homepage = %q{http://github.com/DefV/responders}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
