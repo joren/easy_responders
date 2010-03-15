@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{responders}
+  s.name = %q{easy_responders}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -20,11 +20,11 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/responders.rb",
-     "lib/responders/railtie.rb",
+     "lib/easy_responders.rb",
+     "lib/easy_responders/railtie.rb",
      "responders.gemspec"
   ]
-  s.homepage = %q{http://github.com/DefV/responders}
+  s.homepage = %q{http://github.com/DefV/easy_responders}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
